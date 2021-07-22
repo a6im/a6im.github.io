@@ -1,64 +1,201 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        
-        <meta charset="utf=8">
-        <title>Negin HZ</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="Neginicon.ico">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-        </head>
-        <body>
-          
-            <div class="top-container">
-                <img class="top-cloud"src="image/cloud.png" alt="cloud.image">
-             <h1>I'm Negin.</h1>
-            <h2>a <span class="pro">pro</span>grammer.</h2>
-            <img class="bottom-cloud"src="image/cloud.png" alt="cloud-image">
-            <img src="image/mountain.png" alt="cloud-image">
-            </div>
-            <div class="middle-container">
-                <div class="profile">
-                  <img src="image/Negi.png" alt="Negin-Hz-Profile">
-                  <h2>Hello.</h2>
-                  <p>I am an enthusiastic, energetic and  motivated student in Electronics and Communications
-                    Engineering  at Politecnico di Torino . I 💙 coffee and coding  </p>
-                </div>
-                <hr>
-                <div class="skills">
-                  <h2>My Skills.</h2>
-                  <div class="skill-row">
-                    <img class="img1-skill" src="image/Skills.png" alt="skills">
-                    <h3>Design & Development</h3>
-                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                  </div>
-                  <div class="skill-row">
-                    <img class="img2-skill" src="image/code.png" alt="coding">
-                    <h3>Programming</h3>
-                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-                  </div>
-                </div>
-                <hr>
-                <div class="contact-me">
-                  <h2>Get In Touch</h2>
-                  <h3>If you love hot wings as much as I do.</h3>
-                  <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-                  <a href="mailto:Negiin.hz@gmail.com" class="myButton">CONTACT ME</a>
-                  
-                </div>
-              </div>
-              
-              
-              <div class="bottom-container">
-                <a class="footer-link" href="https://www.linkedin.com/in/negin-hezarjaribi-5b3991197/">LinkedIn</a>
-                <a class="footer-link" href="https://twitter.com/">Twitter</a>
-                <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-                <p class="Copyright"> © 2020 Negin HZ.</p>
-              </div>
-              
-           
+<html lang="en">
 
-        
-    
-        </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negin Hz</title>
+    <link rel="icon" href="images/Neginicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo"><img class="resize" src="images/Neginhzicon.png"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certificates</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Negin</span><br>Code Lover</h1>
+
+                <a href="mailto:Negiin.hz@gmail.com" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/negin-hezarjaribi-5b3991197/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/NeginHz" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/negin.hezarjaribii" class="home__social-icon"><i
+                        class='bx bxl-facebook'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="images/profile.JPG" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="images/about.JPEG" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">I am Negin</h2>
+                    <p class="about__text">I am a student in Computer Engineering
+                     at Politecnico di Torino. Before I go to University, I learned <span class="underline">C++</span> and  <span class="underline">Python</span> and <span class="underline">C#</span> at intermediate level, 
+                     they made me enthusiastic about learning computer programming.
+                     I studied <span class="underline">C</span> programming language at university and last year, I passed <span class="underline">the 55 hours</span> of complete 2020 web development Bootcamp and 
+                     It includes <span class="underline">HTML5</span> , <span class="underline">CSS3</span> , <span class="underline">BOOTSTRAP4</span> , <span class="underline">JAVASCRIPTES6 , DOCUMENT OBJECT MODEL( DOM )</span>, <span class="underline">JQUERY</span>, <span class="underline">THE UNIX COMMANDLIN</span>,
+                     <span class="underline">GIT GITHUB AND VERSION CONTROL</span>, <span class="underline">NODE.JS</span>, <span class="underline">EXPRESS.JS</span> , <span class="underline">APPLICATION PROGRAM INTERFACES ( APIS )</span>, <span class="underline"></span> , <span class="underline">DATABASE FUNDAMENTALS</span>, 
+                     <span class="underline">SQL DATABASES</span>, <span class="underline">NOSQL DATABASES WITH MONGODB AND MONGOOSE</span>, <span class="underline">DEPLOYMENT</span>, <span class="underline">REACT.JS</span>,...
+                      you can see more Details <a href="https://docdro.id/BoipADN">here</a>.
+                      I am interested in <span class="underline">digital skills</span> , and I study about that in my free time.
+
+                      </p>
+                   
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== Certificates =====-->
+        <section class="certifications section" id="certifications">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certifications__container bd-grid">
+                <div class="certifications__img">
+                    <a href="https://docdro.id/AyfD2ym">
+                        <img src="images/google-garage-logo.png" alt="">
+                        <p class="certifications-title">Fundamentals of digital marketing</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a
+                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-1a145653-3d1c-43f3-a59b-daa97e8d3c5a.jpg">
+                        <img src="images/udemy-logo.png" alt="">
+                        <p class="certifications-title">The Complete 2020 Web Development Bootcamp</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/awards/j6chdas">
+                        <img src="images/University of Leeds.jpg" alt="">
+                        <p class="certifications-title">An Introduction to Coding and Design</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/b0gsg9b">
+                        <img src="images/University of Leeds.jpg" alt="">
+                        <p class="certifications-title">Creating a Great User Experience for Mobile Apps</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/4pgeoth">
+                        <img src="images/University of Leeds.jpg" alt="">
+                        <p class="certifications-title">Learn to Code for the Web</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/fqb9mcn">
+                        <img src="images/University of Leeds.jpg" alt="">
+                        <p class="certifications-title">Computer Programming for Everyone</p>
+                    </a>
+                </div>
+            
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/ja44ac9">
+                        <img src="images/accenture.jpg" alt="">
+                        <p class="certifications-title">Digital Skills: User Experience</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/ue6xfn7">
+                        <img src="images/accenture.jpg" alt="">
+                        <p class="certifications-title">Digital Skills: Digital Marketing</p>
+                    </a>
+                </div>
+
+                <div class="certifications__img">
+                    <a href="https://www.futurelearn.com/certificates/jr79e5x">
+                        <img src="images/accenture.jpg" alt="">
+                        <p class="certifications-title">Digital Skills: Web Analytics</p>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="Contact__title">
+                    <h2>Get In Touch</h2>
+                   
+                    <p>Getting in touch is easy ! I will respond to your email as soon as possible.</p>
+
+                </div>
+                <a href="mailto:Negiin.hz@gmail.com" class="button contact__btn">Contact</a>
+                
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Negin Hz</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/negin-hezarjaribi-5b3991197/" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/NeginHz" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="https://www.facebook.com/negin.hezarjaribii" class="footer__icon"><i
+                    class='bx bxl-facebook'></i></a>
+        </div>
+
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
